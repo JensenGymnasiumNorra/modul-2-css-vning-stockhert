@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: rgba(234,234,234)
+}
+/*Navbar & Logo*/
+
+.navbar{
+
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img:hover{
+    transition: 1s ease-in-out;
+    filter: invert(1);
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.navbar-item{
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-item a{
+    color: rgb(147, 147, 147);
+    text-decoration: none;
+
+}
+.navbar-item a:hover{
+    transition: 0.25s ease-in-out;
+    color: white;
+
+    text-shadow: 0 0 15px white;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+/*Menu*/
+.mainMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.mainMenu section ul li{
+    font-size: 20px;
+}
+#review{
+    width: 350px;
+    height: 200px;
+}
+
+/*-General-*/
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section h1{
+    font-size: 30px;
+}
+section h1:hover{
+    transition: 0.25s ease-in-out;
+    text-shadow: 0 0 15px black;
+}
+
+section h2:hover{
+    transition: 0.25s ease-in-out;
+    text-shadow: 0 0 15px black;
+}
+
+p{
+    color: rgba(99,99,99);
+}
+
+ul{
+    display: contents;
+}
+li{
+    list-style: none;
+}
+
+.about{
+    padding-left: 25%;
+    padding-right: 25%;
+    line-height: 1.25;
+}
+/*Footer*/
+footer{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
